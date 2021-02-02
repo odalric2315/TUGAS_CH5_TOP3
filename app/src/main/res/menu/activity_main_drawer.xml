@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_baseline_mail_outline_24"
+            android:title="@string/inbox" />
+        <item
+            android:id="@+id/nav_sent"
+            android:icon="@drawable/ic_baseline_send_24"
+            android:title="@string/sent" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="@string/favourite" />
+        <item
+            android:id="@+id/archive"
+            android:icon="@drawable/ic_baseline_archive_24"
+            android:title="@string/archive" />
+        <item
+            android:id="@+id/trash"
+            android:icon="@drawable/ic_baseline_restore_from_trash_24"
+            android:title="@string/trash" />
+        <item
+            android:id="@+id/spam"
+            android:icon="@drawable/ic_baseline_report_24"
+            android:title="@string/spam" />
+    </group>
+        <item
+            android:title="@string/labels"
+            android:gravity="start">
+    <menu>
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/settings"/>
+        <item
+            android:id="@+id/help_feedback"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="@string/help_feedback"/>
+    </menu>
+        </item>
+</menu>

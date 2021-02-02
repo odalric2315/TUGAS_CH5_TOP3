@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inbox">
+
+    <fragment
+        android:id="@+id/nav_inbox"
+        android:name="com.percobaan.mynavigationdrawerapplication.ui.home.InboxFragment"
+        android:label="@string/menu_inbox"
+        tools:layout="@layout/fragment_inbox" />
+
+    <fragment
+        android:id="@+id/nav_sent"
+        android:name="com.percobaan.mynavigationdrawerapplication.ui.sent.SentFragment"
+        android:label="@string/menu_sent"
+        tools:layout="@layout/fragment_sent" />
+
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="com.percobaan.mynavigationdrawerapplication.ui.favorite.FavoriteFragment"
+        android:label="@string/menu_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/trash"
+        android:name="com.percobaan.mynavigationdrawerapplication.ui.trash.TrashFragment"
+        android:label="@string/menu_trash"
+        tools:layout="@layout/trash_fragment" />
+</navigation>
